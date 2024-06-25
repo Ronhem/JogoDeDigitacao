@@ -1,0 +1,686 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1701215168864168, "dur": 5487207, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215168867350, "dur": 200173, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215169067972, "dur": 5271968, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215174339989, "dur": 11384, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215198308253, "dur": 2992292, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215198308937, "dur": 101670, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215198410610, "dur": 2875730, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215201286343, "dur": 14201, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215201324653, "dur": 36, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1701215198671007, "dur":9208, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215198680237, "dur":11564, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1701215198691907, "dur":92, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1701215198692003, "dur":567, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1701215198692609, "dur":2124, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215198694733, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191344, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191403, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191431, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191435, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191464, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191468, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191495, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191497, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191513, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191548, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201191592, "dur":7591, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1701215198694337, "dur":407, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198694744, "dur":132832, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198827612, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701215198827615, "dur":68864, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198896487, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701215198896492, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198896688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198934062, "dur":5159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1701215198939226, "dur":1310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1701215198940536, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198940620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198940741, "dur":43918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1701215198984760, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215198985043, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198985159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215198990803, "dur":40665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215199031579, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701215199032200, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199032574, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199085949, "dur":7579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1701215199093618, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215199093866, "dur":34895, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199128776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199128794, "dur":59400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215199188294, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215199188518, "dur":10486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199199019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199199342, "dur":389978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215199589410, "dur":77314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215199666726, "dur":36505, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199703249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199703265, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215199705648, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215199705927, "dur":12215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199718159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215199718175, "dur":396921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200115244, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200115355, "dur":21667, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200137260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200137278, "dur":15079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200152453, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200152542, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200152667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200152681, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200155047, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200155160, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200155266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200155279, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200159354, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200159450, "dur":3093, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200162561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200162577, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200166446, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200166542, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200166630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200166643, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200169286, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200169388, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200169505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200169519, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200173396, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200173480, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200173564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200173577, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200176733, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200176827, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200176922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200176936, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200180979, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200181062, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200181397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200181411, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200183549, "dur":1529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200185079, "dur":35199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200220294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200220309, "dur":14409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200234812, "dur":173862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200408675, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200408833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200408846, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200412247, "dur":1563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200413811, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200413976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200414015, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200417855, "dur":1809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200419665, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200419836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200419851, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200422582, "dur":1782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200424366, "dur":26229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200450612, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200450630, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200454274, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200454372, "dur":481, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200454866, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200454890, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200458779, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200458869, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200459033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200459046, "dur":5505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200464646, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200464751, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200464829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200464843, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200468489, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200468590, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200468689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200468703, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200471410, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200471516, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200471642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200471656, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200474778, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200474876, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200475013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200475026, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200478150, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200478246, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200478324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200478337, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200480287, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200480375, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200480787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200480865, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200483889, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200483969, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200484058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200484069, "dur":7815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200492146, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200492347, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200492472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200492487, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200496274, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200496377, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200496473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200496486, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200498981, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200499074, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200499157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200499170, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200502549, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200502640, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200502896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200502912, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200505065, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200505152, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200505440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200505456, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200507950, "dur":101538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200609490, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200610560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200610578, "dur":4485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200615174, "dur":98071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200713246, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200713413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200713427, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200716532, "dur":2043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200718576, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200718737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200718752, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200721124, "dur":1785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200722911, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200723087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200723101, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200725464, "dur":57947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200783412, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200783571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200783585, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200785471, "dur":1779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200787252, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200787415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200787429, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200789946, "dur":58868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200848816, "dur":20919, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200869744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200869756, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200872278, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200872380, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200872503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200872522, "dur":9217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200882035, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200882159, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200882412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200882426, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200886051, "dur":74865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200960917, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200982356, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200982379, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1701215200984761, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215200984854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200984865, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215200990240, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701215200990354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200990368, "dur":6441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701215200997352, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701215200997984, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200998171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215200998185, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1701215201002980, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701215201003074, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201003089, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1701215201006552, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215201006642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201006653, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215201009495, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1701215201009625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201009637, "dur":4639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1701215201014371, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1701215201014462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201014474, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1701215201016729, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215201016829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201016841, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1701215201019158, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1701215201019249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201019260, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1701215201021463, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215201021685, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201021762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1701215201021773, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1701215201023809, "dur":167528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198696921, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198696922, "dur":130679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198827612, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1701215198828108, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198828251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198935330, "dur":40831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1701215198976242, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1701215198976457, "dur":7566, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198984039, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215198984056, "dur":17358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1701215199001511, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701215199001780, "dur":1824, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199003620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199003637, "dur":87847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1701215199091586, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1701215199091824, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199091913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199091928, "dur":76350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1701215199168426, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1701215199168616, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199168675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199168686, "dur":45356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1701215199214160, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701215199214405, "dur":27787, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199242280, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199242293, "dur":199272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1701215199441658, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199441766, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199441954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199538626, "dur":92887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199631622, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199631725, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199631824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199631956, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199634520, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199634600, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199634674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199634686, "dur":69308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199704092, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199704193, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199704275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215199704323, "dur":43449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199747909, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215199748029, "dur":363847, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200111892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200111908, "dur":30120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200142136, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200142226, "dur":2107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200144350, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200144367, "dur":8956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200153415, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200153507, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200153582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200153592, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200157023, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200157147, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200157383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200157397, "dur":7171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200164674, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200164765, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200164891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200164907, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200167298, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200167403, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200167567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200167580, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200170124, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200170214, "dur":569, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200170800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200170817, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200174157, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200174240, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200174636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200174651, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200180068, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200180159, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200180245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200180258, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200183125, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200183215, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200183298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200183312, "dur":38139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200221541, "dur":2711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200224253, "dur":8407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200232678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200232693, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200235206, "dur":104707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200339914, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200340069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200340083, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200342101, "dur":78173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200420276, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200420458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200420472, "dur":31420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200451990, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200452077, "dur":396, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200452484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200452498, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200455744, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200455847, "dur":835, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200456699, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200456729, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200463031, "dur":145000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200608033, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200608192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200608206, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200611341, "dur":1668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200613010, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200613218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200613233, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200615369, "dur":98125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200713494, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200713576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200713584, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200717294, "dur":100351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200817647, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200818052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200818068, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200821011, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200821113, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200821297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200821310, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200824099, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200824202, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200824328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200824341, "dur":8040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200832485, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200832600, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200832711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200832724, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200835889, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200836132, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200836331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200836347, "dur":31789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200868260, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200868359, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200868456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200868513, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200871092, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200871193, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200871299, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200871321, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200874098, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200874331, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200874442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200874455, "dur":8233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200882789, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200882889, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200882970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200882980, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200886745, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200886838, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200886916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200886928, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200890478, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200890569, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200890662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200890678, "dur":38892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1701215200929659, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1701215200930296, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200930473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200932545, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1701215200934910, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1701215200935021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200935187, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1701215200938425, "dur":15671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1701215200954116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200954130, "dur":28214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1701215200982563, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701215200982737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200982749, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1701215200986214, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1701215200986332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200986346, "dur":6415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1701215200992888, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701215200992984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215200992996, "dur":7214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1701215201000372, "dur":32686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1701215201033059, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215201033258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1701215201033271, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1701215201036696, "dur":154551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198697011, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198697012, "dur":131367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198828380, "dur":99515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215198927897, "dur":6091, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198934003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198935842, "dur":33260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215198969202, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215198969553, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198969628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215198969642, "dur":21551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215198991295, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701215198991510, "dur":9329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199000855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199001248, "dur":89489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1701215199090838, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215199091115, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199091211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199091345, "dur":75693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1701215199167124, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701215199167442, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199167765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199167780, "dur":31733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1701215199199614, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215199199886, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199199984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199199993, "dur":503937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215199704041, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215199704154, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199704248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199704260, "dur":15237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215199719607, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215199719709, "dur":23097, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199742822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215199742838, "dur":394536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200137557, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200137641, "dur":3471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200141130, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200141147, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200147139, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200147340, "dur":3037, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200150394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200150410, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200154556, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200154639, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200154917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200154928, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200158749, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200158846, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200158981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200158993, "dur":5595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200164902, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200165037, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200165151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200165165, "dur":8311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200173566, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200173655, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200173770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200173778, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200177356, "dur":145870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200323228, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200323402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200323415, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200325571, "dur":1797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200327369, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200327525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200327538, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200329409, "dur":201405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200530815, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200531012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215200531026, "dur":40773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215200571891, "dur":616273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215201188165, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215201188343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1701215201188356, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1701215201191183, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1701215201191187, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198696865, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198696867, "dur":131004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198827871, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1701215198828223, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198828357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198935950, "dur":48573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1701215198984697, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1701215198984973, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215198985114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199001052, "dur":14180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1701215199015362, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701215199015683, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199015885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199015906, "dur":112128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701215199128133, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701215199128374, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199128449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199128464, "dur":49151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1701215199177716, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215199178198, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199178345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199179279, "dur":63328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215199242711, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica.exe" }}
+,{ "pid":12345, "tid":4, "ts":1701215199242838, "dur":503, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199243355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199243366, "dur":76956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica.exe" }}
+,{ "pid":12345, "tid":4, "ts":1701215199320423, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1701215199320743, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199320883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199321527, "dur":336924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1701215199658538, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215199658628, "dur":43166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199701811, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215199701827, "dur":46016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215199748069, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215199748153, "dur":363878, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200112344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200112355, "dur":33024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200145500, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200145600, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200145987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200146137, "dur":8001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200154235, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200154363, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200154451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200154461, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200158549, "dur":264032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200422582, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200422690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200422704, "dur":30102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200452928, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200453031, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200453124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200453137, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200458820, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200458902, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200459196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200459204, "dur":5629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200464915, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200465005, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200465084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200465092, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200469220, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200469321, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200469625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200469639, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200472238, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200472425, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200472757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200472771, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200475586, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200475693, "dur":980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200476686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200476702, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200479561, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200479650, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200479735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200479749, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200482165, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200482261, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200482350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200482362, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200484826, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200484914, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200485089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200485104, "dur":3842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200489044, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200489133, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200489218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200489231, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200492909, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200493005, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200493095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200493338, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200497027, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200497135, "dur":2408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200499601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200499612, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200504478, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200504566, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200504649, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200504669, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200507148, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200507243, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200507337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200507401, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200509710, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200509897, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200509998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200510011, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200512640, "dur":136838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200649480, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200649640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200649654, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200652217, "dur":83027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200735245, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200735408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200735422, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200738209, "dur":60888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200799099, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200799294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200799307, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200801398, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200803005, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200803337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200803351, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200805458, "dur":14145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200819604, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200819732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200819809, "dur":4622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200824536, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200824628, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200824752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200824766, "dur":5208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200830076, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200830181, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200830276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200830290, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200832803, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200832916, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200833011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200833023, "dur":33655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200866780, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200866888, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200866988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200867001, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200869181, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200869268, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200869423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200869434, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200871834, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200871927, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200872019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200872032, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200875950, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200876090, "dur":3245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200879598, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200879626, "dur":5748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200885504, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200885610, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200885711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200885725, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200888847, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200888970, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200889097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200889116, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200892171, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200892262, "dur":28156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200920434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215200920450, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215200923618, "dur":241531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215201165164, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1701215201165180, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zenilda/Desktop/Digitao intergaltica V1.2/Digitao Intergaltica_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1701215201167817, "dur":23418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1701215201204777, "dur":4543, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1701215201325011, "dur": 1825, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1701215201324628, "dur": 2262, "ph": "X", "name": "Write chrome-trace events", "args": {} },
